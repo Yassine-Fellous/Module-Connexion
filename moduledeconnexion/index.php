@@ -21,12 +21,11 @@
     <main>
         <fieldset class="index">
             <legend>Presentation</legend><br>
-            <p>DevsGame est un jeux a sens unique en cours de dévellopement 
-            afin d'acceder a la version beta dés sa sorti veuillez crée un compte 
-            c 'est un jeux de type interactive qui premet d'apprendre a develloper
-            tout en s'amusant sans prise de tete et qui s'adaptera a tout les niveaux 
-            et qui jouable meme par un enfant de 8ans ou une personne agé sans prise de tete
-            il vous permettra d'avoir quelque notion </p>
+            <p>DevsGame est un jeu à sens unique en cours de développement,
+                afin d'accéder à la version bêta dés sa sortie, veuillez créer un compte.
+                C'est un jeu de type interactif qui permet d'apprendre à développer tout en s'amusant sans prise de tête et qui s'adaptera à tous les niveaux.
+                Il est jouable même par un enfant en bas âge ou une personne âgée. Il vous permettra d'avoir quelques notions en programmation.
+            </p>
         </fieldset>
     </main>
     <footer>
