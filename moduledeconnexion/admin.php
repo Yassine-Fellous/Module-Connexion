@@ -47,7 +47,9 @@ $utilisateurs =$bdd->query("SELECT * FROM utilisateurs ORDER BY id DESC");//vari
     <footer>
         <div class="resaux">
             <ul class="social-icons">
-                <img class="git" href="https://github.com/Yassine-Fellous/module-connexion" src="image/github.png" alt="logo">
+                <a href="https://github.com/Yassine-Fellous/module-connexion">
+                    <img class="git" src="image/github.png" alt="logo">
+                </a>
             <ul>
         </div>
     </footer>
