@@ -169,6 +169,19 @@ button {
     margin-bottom:-30px;
 }
 
+.buttonadmin {
+    display: flex;
+    border-radius: 5px;
+    background-color:white;
+    border: none;
+    color:black;
+    padding: 10px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom:-30px;
+}
+
 .button {
     display: flex;
     border-radius: 5px;
