@@ -25,6 +25,7 @@ if(isset($_POST['connect'])){//si $_POST['connect']
                     $_SESSION['admin'] = 1 ;//création du variable de session pour l'admin
                     header("Location: admin.php");//redirige vers la page admin.php
                 }
+
             else{
                 $erreur = '<font color="red">Login inexsistant ou Password incorrect !</font>';//indque quel erreur enpeche la connexion
             }
@@ -42,7 +43,7 @@ if(isset($_POST['connect'])){//si $_POST['connect']
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/css.css">
-    <title>inscription</title>
+    <title>Connexion</title>
 </head>
 <body>
     <header>

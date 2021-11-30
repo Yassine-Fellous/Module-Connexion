@@ -56,7 +56,7 @@ if(isset($_SESSION['id'])){//condition qui permet de voir si une variable de ses
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/css.css">
-    <title>inscription</title>
+    <title>Edition Profil</title>
 </head>
 <body>
     <header>

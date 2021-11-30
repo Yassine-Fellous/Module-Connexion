@@ -24,7 +24,7 @@ if(isset($_SESSION['id'])){//si la variable de session id existe
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/css.css">
-    <title>inscription</title>
+    <title>Profil</title>
 </head>
 <body>
     <header>
