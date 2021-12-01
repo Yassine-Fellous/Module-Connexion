@@ -37,9 +37,14 @@ $utilisateurs =$bdd->query("SELECT * FROM utilisateurs ORDER BY id DESC");//vari
         <fieldset class="admin">
             <legend>Admin</legend><br>
             <ul>
-                <?php while($users = $utilisateurs->fetch()){?>
-                    <li> <?= $users['id']?> : <?= $users['login']?> </li><a class="buttonadmin" href="admin.php?supprime=<?= $users['id'] ?>">Supprimer</a></br>
-                    <?php } ?>
+                <?php while($users = $utilisateurs->fetch()){
+                            if($users['login'] != 'admin'){?>
+                    <li> Id : <?= $users['id']?> Login : <?= $users['login']?> Prenom : <?= $users['prenom']?> Nom : <?= $users['nom']?> </li><a class="buttonadmin" href="admin.php?supprime=<?= $users['id'] ?>">Supprimer</a></br>
+                    <?php }
+                        else {
+                            echo '';
+                        }
+                    }?>
                     <a class="buttondeux" href="deconnexion.php">deconnexion</a>
             </ul>  
         </fieldset>
